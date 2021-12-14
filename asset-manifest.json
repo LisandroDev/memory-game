@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.77e658bf.chunk.css",
+    "main.js": "/memory-game/static/js/main.5bb6862f.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.5bb6862f.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.cd75cd85.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.cd75cd85.js.map",
+    "static/js/2.57de6262.chunk.js": "/memory-game/static/js/2.57de6262.chunk.js",
+    "static/js/2.57de6262.chunk.js.map": "/memory-game/static/js/2.57de6262.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/main.77e658bf.chunk.css.map": "/memory-game/static/css/main.77e658bf.chunk.css.map",
+    "static/js/2.57de6262.chunk.js.LICENSE.txt": "/memory-game/static/js/2.57de6262.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/memory-game/static/media/get_schwifty.c3d1dfc6.ttf",
+    "static/media/Beth.webp": "/memory-game/static/media/Beth.00986b13.webp",
+    "static/media/Birdperson.webp": "/memory-game/static/media/Birdperson.34720d6f.webp",
+    "static/media/Jerry.webp": "/memory-game/static/media/Jerry.d9476e80.webp",
+    "static/media/Morty.webp": "/memory-game/static/media/Morty.05a4fff4.webp",
+    "static/media/Rick.webp": "/memory-game/static/media/Rick.fd5755e0.webp",
+    "static/media/SleepyGary.webp": "/memory-game/static/media/SleepyGary.1c57485d.webp",
+    "static/media/Squanchy.webp": "/memory-game/static/media/Squanchy.a3a81d6c.webp",
+    "static/media/Summer.webp": "/memory-game/static/media/Summer.967cc305.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd75cd85.js",
+    "static/js/2.57de6262.chunk.js",
+    "static/css/main.77e658bf.chunk.css",
+    "static/js/main.5bb6862f.chunk.js"
+  ]
+}
