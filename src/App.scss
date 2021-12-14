@@ -1,0 +1,98 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  text-align: center;
+  font-family: 'GetSchwifty';
+  color: #61dafb;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.photo {
+  height: 70%;
+  width: 70%;
+}
+
+.game-holder {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 18vw 18vw 18vw 18vw;
+  grid-template-rows: 36vh 36vh;
+  gap: 1vw;
+};
+
+.card {
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 25px;
+}
+
+.card::after {
+  content: '';
+  z-index: -1;
+  opacity: 0;
+  width: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.07, 1.07);
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.card:hover {
+  box-shadow: inset;
+}
+
+.text {
+  font-family: 'GetSchwifty';
+  font-size: 1.5vw;
+  color: rgb(141, 223, 226);
+};
+
+.scoreboard {
+  margin-left: 10vw;
+  color: rgb(141, 223, 226);
+  font-size: 1.1vw;
+  font-family: 'GetSchwifty';
+}
+
+.footer{
+  position: absolute;
+  margin-top: 1vw;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.github{
+  text-decoration: none;
+  color: #b4b4b4;
+  font-size: 1vw;
+  margin-top: 1.5vh;
+  text-align: center;
+}
